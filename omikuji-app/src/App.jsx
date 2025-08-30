@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 
-const omikujiResults = ['大吉', '中吉', '小吉', '末吉', '凶'];
+const omikujiResults = ["大吉", "中吉", "小吉", "末吉", "凶"];
 
 function App() {
   const [result, setResult] = useState(null);
